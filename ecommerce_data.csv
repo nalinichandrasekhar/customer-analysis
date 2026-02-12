@@ -1,0 +1,501 @@
+customer_id,age,gender,membership_type,annual_income,total_purchases,avg_order_value,customer_satisfaction,time_on_site_minutes,city,total_spent
+1,56,Female,Premium,68070.89,9,67.28,5.0,9.8,Los Angeles,901.27
+2,69,Female,VIP,40657.5,2,26.6,5.0,8.1,Phoenix,79.31
+3,46,Female,Basic,54391.14,11,102.5,4.0,1.6,Chicago,1500.83
+4,32,Female,Basic,108556.76,8,136.72,4.0,3.5,Los Angeles,1891.62
+5,60,Male,Premium,98188.58,6,48.79,4.0,8.2,Chicago,485.33
+6,25,Male,Basic,65908.09,8,103.88,4.0,3.2,New York,963.6
+7,38,Male,Basic,55950.09,3,49.74,3.0,15.2,Houston,207.13
+8,56,Female,Basic,58000.78,6,78.98,4.0,2.1,Phoenix,611.53
+9,36,Male,Basic,70337.95,10,120.24,3.0,1.4,Houston,1381.89
+10,40,Male,Basic,29430.19,7,59.39,5.0,4.2,Phoenix,449.41
+11,28,Male,Basic,48565.59,8,74.56,3.0,7.7,New York,802.75
+12,28,Male,Basic,20000.0,9,20.95,4.0,8.8,Houston,212.12
+13,41,Female,VIP,64980.58,7,55.07,4.0,5.0,New York,828.58
+14,53,Female,Basic,71179.9,7,17.81,3.0,15.8,Phoenix,171.42
+15,57,Male,Premium,42920.34,8,87.88,4.0,4.6,Los Angeles,887.41
+16,41,Male,Premium,94349.67,11,99.95,5.0,3.7,Houston,2214.98
+17,20,Female,Basic,24355.86,12,68.35,4.0,6.2,New York,763.02
+18,39,Male,Premium,20000.0,8,83.58,5.0,1.6,Philadelphia,1018.83
+19,19,Male,Basic,60611.3,11,65.23,4.0,10.0,Houston,816.41
+20,41,Male,VIP,81177.46,5,97.22,4.0,11.3,Houston,1160.81
+21,61,Male,Basic,97098.19,10,78.88,2.0,5.4,Houston,990.62
+22,47,Female,Basic,43527.89,9,15.43,5.0,2.0,Chicago,156.1
+23,55,Female,Basic,81967.02,9,103.2,3.0,5.7,New York,1025.17
+24,19,Male,VIP,54037.29,7,63.31,5.0,15.3,New York,882.89
+25,38,Male,Premium,50684.32,9,36.89,5.0,7.2,Houston,564.7
+26,50,Female,Premium,77091.5,12,61.83,5.0,8.5,Los Angeles,1348.14
+27,29,Female,Basic,71308.07,7,17.94,4.0,9.6,Houston,159.23
+28,39,Female,Premium,20000.0,10,37.5,4.0,1.6,Chicago,398.83
+29,61,Female,Basic,91913.51,7,79.29,4.0,4.0,Phoenix,885.32
+30,42,Male,VIP,89502.28,4,81.8,4.0,7.9,Chicago,763.36
+31,66,Male,Basic,39360.93,9,84.19,4.0,1.2,Los Angeles,912.79
+32,44,Female,Basic,64895.09,4,75.1,1.0,10.9,Houston,411.14
+33,59,Male,Basic,67350.75,7,54.21,4.0,1.2,New York,515.82
+34,45,Female,Basic,61516.84,15,73.37,3.0,3.1,Philadelphia,1297.54
+35,33,Female,Premium,41242.37,10,61.88,3.0,10.6,Houston,973.06
+36,32,Female,Basic,38209.42,5,26.23,3.0,4.3,Los Angeles,150.22
+37,64,Male,Premium,54361.15,7,51.83,4.0,5.6,New York,630.88
+38,68,Female,Basic,84318.23,3,101.69,4.0,17.1,Chicago,451.89
+39,61,Male,Premium,68590.0,3,122.65,2.0,9.4,Phoenix,485.43
+40,69,Female,Basic,45734.64,8,94.54,4.0,4.5,Phoenix,812.23
+41,20,Female,Basic,74292.47,9,121.31,3.0,9.8,Houston,1129.72
+42,54,Male,Premium,20000.0,8,77.56,,4.6,Chicago,678.25
+43,68,Other,Basic,83719.14,4,127.27,4.0,4.0,Philadelphia,698.44
+44,24,Female,Basic,20000.0,6,136.63,4.0,4.8,Philadelphia,942.39
+45,38,Male,VIP,45938.98,7,23.0,5.0,3.6,Los Angeles,246.7
+46,26,Male,VIP,27008.25,7,81.64,4.0,2.7,Phoenix,927.93
+47,56,Male,Basic,22632.96,4,77.59,4.0,3.3,Chicago,366.14
+48,35,Male,Basic,84020.67,5,62.28,4.0,3.0,Houston,462.69
+49,21,Male,Premium,43307.47,13,89.76,,2.0,New York,1706.93
+50,42,Female,Basic,63662.6,11,76.23,4.0,7.6,Houston,1132.54
+51,31,Male,Basic,53826.99,4,52.94,1.0,8.4,Houston,249.79
+52,67,Male,Basic,66926.02,8,74.2,4.0,4.0,Chicago,632.61
+53,26,Female,Premium,56920.55,6,111.14,4.0,17.9,Phoenix,872.7
+54,43,Male,Premium,22925.19,4,80.48,3.0,11.9,Chicago,371.67
+55,19,Female,Basic,79906.67,5,93.81,,7.5,New York,573.13
+56,37,Male,Basic,42656.09,12,66.69,2.0,9.1,Chicago,1044.3
+57,45,Male,Basic,20000.0,9,88.56,5.0,1.4,Los Angeles,892.6
+58,64,Female,Premium,44297.12,7,38.72,4.0,11.1,Houston,384.55
+59,24,Female,Basic,92518.99,11,60.01,2.0,2.8,Phoenix,896.85
+60,61,Female,Basic,76255.54,10,71.92,3.0,15.4,Philadelphia,835.02
+61,25,Female,Premium,46283.7,11,36.71,4.0,25.4,New York,642.46
+62,64,Female,Basic,46268.56,13,50.09,5.0,20.5,Philadelphia,825.93
+63,52,Male,Premium,46959.12,9,84.39,1.0,7.7,Houston,1003.43
+64,31,Male,Basic,106918.7,7,78.89,3.0,8.6,Chicago,646.99
+65,34,Female,Basic,64548.39,5,99.19,5.0,8.9,Philadelphia,636.43
+66,53,Female,Basic,65751.04,8,56.98,1.0,3.8,Los Angeles,574.12
+67,67,Other,Premium,80757.09,9,76.73,3.0,7.4,Chicago,1124.5
+68,57,Male,VIP,60969.73,6,54.84,,2.4,Houston,670.82
+69,21,Male,Premium,48523.95,7,96.18,4.0,15.2,Philadelphia,1020.3
+70,19,Female,Basic,50091.25,7,110.72,,8.4,New York,802.67
+71,23,Male,Premium,53209.97,10,89.5,2.0,11.8,Philadelphia,1301.12
+72,59,Female,Basic,54069.44,10,106.84,1.0,5.2,Philadelphia,1214.32
+73,21,Female,Basic,73190.74,6,75.97,3.0,3.4,Phoenix,664.8
+74,46,Male,VIP,56298.65,4,99.17,5.0,1.5,Philadelphia,888.05
+75,35,Female,Basic,73316.0,4,77.26,4.0,2.9,Houston,452.93
+76,43,Female,Basic,52982.09,4,44.25,4.0,4.5,New York,672.79
+77,61,Male,Basic,56965.88,9,82.4,5.0,8.6,Houston,908.5
+78,51,Female,Basic,20000.0,7,45.14,4.0,6.7,Los Angeles,339.91
+79,27,Female,Basic,77908.19,11,145.17,3.0,6.0,Chicago,2420.76
+80,53,Female,Premium,63662.21,8,64.98,4.0,8.2,Philadelphia,740.91
+81,31,Male,Basic,79950.25,12,94.35,5.0,4.5,Phoenix,1492.12
+82,48,Female,VIP,20000.0,10,74.63,5.0,8.3,New York,1284.6
+83,65,Male,Premium,107209.37,4,37.99,2.0,5.9,Phoenix,304.0
+84,32,Male,Basic,51510.26,3,18.04,4.0,5.7,Phoenix,56.45
+85,25,Female,Basic,82704.57,5,97.47,,2.7,Phoenix,662.29
+86,31,Male,Basic,29002.35,10,121.48,5.0,3.8,Philadelphia,1419.72
+87,40,Male,Premium,70319.35,5,52.96,2.0,0.7,New York,426.49
+88,57,Female,Basic,28664.61,4,25.3,4.0,2.3,New York,117.97
+89,38,Female,Premium,39405.78,10,65.25,5.0,10.4,Phoenix,878.3
+90,33,Female,Basic,102850.78,6,46.89,4.0,2.6,Chicago,467.62
+91,62,Female,Premium,50232.94,10,55.49,4.0,6.6,Philadelphia,2524.94
+92,35,Male,Basic,60435.82,11,93.31,2.0,2.4,Philadelphia,1281.21
+93,64,Male,Basic,76751.69,5,73.49,3.0,9.3,Houston,383.24
+94,41,Male,VIP,67392.05,8,50.11,5.0,7.0,Philadelphia,688.76
+95,43,Female,Premium,58760.47,6,92.66,5.0,1.6,Phoenix,908.59
+96,42,Female,Basic,64124.03,9,95.01,3.0,9.7,Los Angeles,1010.17
+97,62,Female,VIP,115085.39,11,64.89,,11.7,Phoenix,1690.26
+98,58,Female,Basic,53559.53,13,79.14,4.0,2.4,New York,991.33
+99,46,Male,VIP,60027.48,4,90.62,4.0,4.1,Philadelphia,788.97
+100,32,Female,Premium,81266.36,8,87.78,4.0,2.0,Philadelphia,1328.2
+101,62,Male,Basic,82638.15,5,76.22,4.0,9.0,Houston,437.42
+102,18,Female,Basic,84675.76,11,117.98,5.0,5.1,Los Angeles,1809.51
+103,42,Male,Basic,70968.26,8,92.48,4.0,5.1,Philadelphia,1046.5
+104,24,Female,Premium,26424.88,3,61.48,4.0,4.5,Houston,261.41
+105,26,Male,Premium,95835.79,10,61.66,2.0,12.1,Houston,1021.56
+106,41,Male,Basic,26341.37,12,58.26,5.0,19.4,Los Angeles,766.28
+107,18,Male,Basic,62565.89,7,93.96,2.0,11.8,Phoenix,705.29
+108,61,Female,Premium,36143.1,8,56.32,4.0,9.2,Phoenix,586.94
+109,25,Female,VIP,53396.54,2,62.25,5.0,3.3,Phoenix,208.29
+110,41,Male,Premium,63219.06,6,106.74,5.0,3.0,Chicago,1035.47
+111,28,Male,Basic,63033.93,2,80.75,4.0,2.7,Phoenix,165.48
+112,68,Female,Basic,65548.02,11,110.96,4.0,3.8,Los Angeles,1758.06
+113,34,Male,Basic,95342.78,11,98.94,3.0,3.5,Chicago,1398.42
+114,25,Female,VIP,66338.36,8,39.7,5.0,7.9,Phoenix,555.49
+115,52,Female,Basic,48896.08,14,71.94,4.0,1.2,Chicago,1150.96
+116,52,Male,Premium,79102.18,13,104.7,4.0,3.7,Los Angeles,2087.61
+117,50,Male,Basic,84736.76,2,38.33,2.0,0.6,Phoenix,102.89
+118,22,Other,Premium,24309.8,12,87.59,5.0,9.3,New York,1311.27
+119,59,Male,Premium,69935.0,7,73.82,5.0,3.7,Philadelphia,715.9
+120,56,Male,Premium,72529.32,9,22.36,3.0,15.0,Los Angeles,299.32
+121,58,Female,Basic,47560.91,6,78.59,5.0,8.3,Houston,523.28
+122,45,Female,Basic,89392.67,8,49.88,4.0,0.6,Houston,436.42
+123,24,Other,Basic,51248.61,9,39.97,4.0,1.4,Los Angeles,460.94
+124,26,Female,VIP,58139.41,7,75.27,3.0,3.6,Houston,1052.69
+125,25,Male,VIP,50673.2,8,17.07,4.0,19.6,Los Angeles,262.28
+126,29,Male,Premium,55389.48,6,54.77,4.0,2.2,New York,512.04
+127,51,Female,Premium,27593.12,7,151.54,4.0,5.8,Los Angeles,1483.01
+128,50,Female,Premium,20000.0,10,94.51,4.0,10.3,Phoenix,1442.19
+129,65,Male,Basic,94862.63,9,48.56,4.0,12.0,Phoenix,482.48
+130,40,Female,VIP,33825.97,9,117.12,5.0,4.5,Chicago,1476.99
+131,41,Male,Basic,30215.19,2,45.24,2.0,2.0,Houston,83.36
+132,54,Female,Basic,20000.0,6,58.39,5.0,4.9,Philadelphia,303.71
+133,52,Male,Premium,39025.96,9,40.53,4.0,9.8,Houston,453.12
+134,61,Male,Basic,21922.76,4,82.68,3.0,8.1,Los Angeles,356.87
+135,57,Male,Basic,96050.38,13,116.06,3.0,0.8,Philadelphia,2048.49
+136,39,Male,Premium,80245.43,8,45.03,4.0,1.0,Philadelphia,729.18
+137,44,Male,Basic,37796.24,11,13.19,5.0,10.1,Houston,140.7
+138,52,Female,Premium,111310.9,6,107.73,3.0,1.5,Philadelphia,1131.16
+139,18,Female,Basic,79544.14,8,121.61,4.0,1.3,Philadelphia,1506.98
+140,52,Female,Basic,46879.22,7,15.15,2.0,5.3,Phoenix,136.24
+141,54,Other,Basic,20000.0,11,88.8,4.0,9.8,New York,965.02
+142,64,Male,Basic,112273.56,8,81.8,5.0,14.0,Los Angeles,977.02
+143,31,Male,Premium,20260.69,11,51.38,4.0,1.6,Houston,836.61
+144,20,Female,Basic,20000.0,2,33.17,3.0,18.9,Phoenix,65.83
+145,18,Male,Premium,80564.26,5,104.75,4.0,0.7,Chicago,782.69
+146,22,Other,Basic,115993.81,5,80.37,3.0,3.3,Philadelphia,672.79
+147,43,Male,Premium,89606.82,6,82.63,4.0,7.5,Philadelphia,881.89
+148,31,Other,VIP,69097.73,12,56.35,4.0,1.9,Houston,1160.35
+149,56,Male,Premium,69868.86,5,50.94,4.0,3.9,New York,414.58
+150,44,Female,Basic,76335.39,7,10.0,3.0,3.4,New York,86.59
+151,26,Female,Basic,73973.21,7,68.16,5.0,0.9,Houston,697.14
+152,32,Other,Basic,62029.79,13,118.16,4.0,4.7,Houston,1580.79
+153,32,Male,Premium,57605.03,9,48.29,3.0,2.7,Phoenix,771.95
+154,43,Female,Basic,53435.17,8,29.33,4.0,2.3,Houston,275.16
+155,59,Other,Basic,36150.89,8,88.07,4.0,3.4,Chicago,732.3
+156,30,Female,Premium,47983.12,4,93.6,4.0,11.8,Phoenix,479.79
+157,68,Female,Basic,20000.0,10,57.42,4.0,10.1,Philadelphia,620.35
+158,49,Female,Premium,52541.51,13,64.54,4.0,0.3,Philadelphia,1484.55
+159,56,Male,Basic,30285.22,6,82.92,3.0,8.7,Philadelphia,497.0
+160,66,Female,Basic,27410.27,9,70.33,5.0,1.8,Philadelphia,588.59
+161,69,Female,Premium,59497.35,9,105.0,4.0,15.4,Los Angeles,1503.35
+162,49,Female,Basic,89800.06,9,148.12,2.0,1.9,Chicago,2011.12
+163,21,Male,Premium,77957.92,3,23.73,4.0,8.0,Phoenix,95.64
+164,47,Male,Basic,20000.0,8,111.89,5.0,3.5,Phoenix,942.18
+165,54,Female,Basic,30259.3,9,78.16,5.0,6.7,Philadelphia,768.04
+166,40,Female,Premium,78519.28,7,116.65,3.0,3.6,New York,3816.42
+167,56,Male,Premium,30437.82,6,96.73,2.0,1.6,Phoenix,778.43
+168,62,Female,Premium,49384.17,4,76.83,4.0,2.4,Chicago,411.84
+169,32,Male,Basic,68751.3,16,97.8,2.0,0.8,Houston,2171.74
+170,60,Male,Premium,30791.39,11,63.18,,10.5,Chicago,1003.37
+171,46,Male,Basic,57634.39,9,51.77,3.0,8.6,Philadelphia,560.82
+172,53,Male,Basic,21649.36,7,99.33,3.0,6.1,Philadelphia,670.88
+173,30,Female,VIP,39965.81,13,49.67,4.0,6.5,Los Angeles,1041.42
+174,49,Male,Basic,62994.55,4,94.27,3.0,2.1,Phoenix,517.25
+175,24,Other,VIP,20000.0,10,75.92,5.0,5.6,Phoenix,1191.15
+176,68,Other,Basic,66011.87,8,10.0,4.0,2.9,Phoenix,98.45
+177,39,Female,Basic,54509.06,8,57.77,3.0,17.7,Philadelphia,546.37
+178,45,Female,Premium,68812.25,5,85.05,3.0,6.5,Phoenix,673.45
+179,19,Male,VIP,60597.85,9,62.82,4.0,2.6,New York,981.99
+180,59,Female,Premium,89103.51,5,10.0,2.0,3.6,New York,74.17
+181,62,Female,Premium,58130.61,6,114.62,4.0,4.7,Houston,893.51
+182,23,Male,Premium,44264.86,8,80.08,4.0,3.4,Phoenix,1030.02
+183,45,Female,Premium,58057.44,5,88.31,4.0,2.0,Los Angeles,607.66
+184,45,Female,Premium,68582.45,13,60.8,5.0,6.8,Houston,1050.08
+185,61,Female,Basic,56221.5,11,90.94,5.0,8.8,Philadelphia,1322.1
+186,61,Female,Basic,56014.79,9,130.04,5.0,9.4,Phoenix,1189.97
+187,37,Female,Basic,37450.21,6,52.95,3.0,8.0,New York,362.68
+188,47,Male,VIP,38427.48,9,125.01,4.0,2.0,Los Angeles,1839.05
+189,28,Female,VIP,20000.0,9,86.96,5.0,8.1,Houston,1065.09
+190,45,Female,Basic,98739.42,3,48.92,5.0,8.0,Los Angeles,197.51
+191,42,Male,Premium,23903.42,7,141.37,5.0,7.0,Phoenix,1057.03
+192,56,Male,VIP,37677.37,8,86.75,4.0,9.9,Chicago,1373.35
+193,50,Male,Basic,37039.82,8,95.29,2.0,2.7,Los Angeles,831.75
+194,18,Female,Premium,77373.11,7,66.92,5.0,3.8,Los Angeles,670.49
+195,44,Other,VIP,47626.26,6,51.11,5.0,9.2,Philadelphia,1498.97
+196,69,Male,Basic,86193.55,5,80.03,1.0,4.6,New York,521.48
+197,30,Female,Premium,38162.73,10,122.44,4.0,3.0,Phoenix,1520.18
+198,58,Male,Basic,61974.85,5,65.71,1.0,6.2,Los Angeles,360.69
+199,20,Other,VIP,34116.32,8,74.2,4.0,11.9,Phoenix,1030.72
+200,56,Female,VIP,108628.73,8,118.69,4.0,2.8,New York,2483.84
+201,23,Female,VIP,25310.04,8,65.99,4.0,18.1,Philadelphia,833.05
+202,25,Male,Basic,62745.52,6,90.31,4.0,2.5,Phoenix,714.68
+203,44,Male,VIP,70844.42,8,101.32,5.0,4.4,New York,1871.53
+204,26,Male,Premium,65344.98,7,69.1,4.0,13.7,New York,683.75
+205,54,Male,Basic,50367.81,10,84.3,4.0,5.0,Houston,1090.19
+206,50,Female,Premium,51754.48,7,94.83,5.0,9.8,Philadelphia,1102.9
+207,68,Female,Basic,56095.29,8,62.97,5.0,1.3,Philadelphia,560.63
+208,59,Other,Premium,51324.95,9,99.47,2.0,3.4,Phoenix,1609.61
+209,61,Other,Basic,79096.98,8,58.59,4.0,5.6,Chicago,549.5
+210,41,Female,Basic,110263.08,6,54.75,3.0,1.1,Houston,429.92
+211,32,Female,Basic,41062.71,9,29.19,1.0,1.5,Philadelphia,321.97
+212,49,Female,Premium,20754.93,7,59.9,4.0,8.3,New York,532.81
+213,49,Female,Basic,52792.95,8,50.53,5.0,4.0,Philadelphia,438.69
+214,41,Male,Premium,119492.73,11,62.97,3.0,3.3,Chicago,1175.01
+215,58,Male,Basic,34908.14,7,93.36,5.0,3.5,Los Angeles,776.74
+216,69,Male,Basic,95977.92,9,23.23,5.0,15.8,Los Angeles,321.49
+217,66,Female,Premium,96942.52,8,15.76,5.0,9.8,Philadelphia,232.97
+218,66,Female,Premium,41160.29,6,52.53,3.0,7.8,Philadelphia,535.92
+219,69,Male,Basic,69224.58,6,88.84,5.0,4.6,Houston,615.85
+220,29,Female,Premium,95709.92,14,83.67,3.0,1.0,Philadelphia,1863.51
+221,56,Female,VIP,45521.81,12,52.05,4.0,4.9,Chicago,1206.78
+222,19,Male,Premium,49910.49,5,110.08,2.0,3.8,Philadelphia,907.52
+223,20,Male,Basic,40457.98,12,55.25,1.0,0.8,Phoenix,650.35
+224,66,Female,Basic,29631.08,8,88.87,4.0,16.6,Chicago,619.01
+225,54,Female,VIP,38768.06,7,64.12,4.0,9.4,Houston,883.02
+226,66,Female,Basic,24401.49,4,48.94,3.0,7.2,Phoenix,238.18
+227,34,Female,VIP,55852.09,5,56.85,3.0,0.8,Phoenix,567.31
+228,66,Female,Premium,35750.67,5,97.02,4.0,11.1,Los Angeles,619.83
+229,19,Female,VIP,60844.65,4,85.83,4.0,3.7,Chicago,792.86
+230,19,Female,Premium,20000.0,7,104.04,5.0,3.4,Phoenix,1095.73
+231,45,Female,VIP,63272.01,9,85.83,4.0,6.7,Houston,1511.29
+232,40,Male,Basic,75838.22,7,26.66,3.0,5.6,Los Angeles,269.81
+233,54,Male,Premium,20000.0,6,138.43,3.0,1.3,Phoenix,1216.18
+234,49,Male,Basic,64351.41,7,86.26,4.0,4.1,Chicago,865.91
+235,50,Female,Basic,85691.72,4,90.44,3.0,1.4,Los Angeles,546.06
+236,18,Female,Premium,24758.97,9,63.69,3.0,1.5,Chicago,806.8
+237,36,Female,VIP,96814.31,10,108.4,3.0,6.9,Chicago,2505.09
+238,19,Male,VIP,65475.48,11,42.21,5.0,5.0,Chicago,899.77
+239,61,Male,Premium,37374.7,11,93.29,1.0,13.9,Los Angeles,1523.33
+240,43,Male,Basic,53605.77,8,12.61,4.0,2.1,Phoenix,131.75
+241,49,Male,Basic,68958.17,10,95.32,5.0,15.1,Philadelphia,1408.97
+242,23,Female,Premium,56900.13,9,42.61,3.0,2.8,New York,582.8
+243,49,Male,Basic,68468.9,8,83.31,2.0,3.2,Phoenix,852.32
+244,21,Male,Basic,31983.16,3,115.72,4.0,2.3,Los Angeles,359.83
+245,28,Female,Basic,59234.02,5,99.68,4.0,6.2,New York,636.32
+246,34,Male,Basic,20000.0,7,111.73,4.0,8.4,New York,822.77
+247,55,Female,Basic,52219.35,7,108.63,2.0,2.7,New York,712.55
+248,41,Female,Basic,32402.31,8,59.27,2.0,13.2,Philadelphia,511.85
+249,22,Male,Basic,36611.75,5,92.95,4.0,2.0,Houston,420.48
+250,69,Female,Basic,85902.33,7,23.25,3.0,5.2,Los Angeles,175.39
+251,51,Female,VIP,82282.75,7,54.39,4.0,7.4,Philadelphia,891.87
+252,23,Female,Basic,70228.45,7,116.78,4.0,9.8,Philadelphia,923.94
+253,39,Male,Basic,27692.18,7,63.45,3.0,12.3,Houston,431.82
+254,28,Female,Premium,47089.79,10,18.96,5.0,4.2,New York,231.05
+255,65,Female,Basic,85327.44,7,135.41,5.0,7.4,Houston,1096.17
+256,33,Male,VIP,58542.92,9,91.87,5.0,7.6,Houston,1745.35
+257,50,Male,Premium,112983.24,7,97.93,2.0,2.4,Philadelphia,1301.98
+258,26,Other,Basic,64832.95,5,45.59,2.0,4.2,Los Angeles,321.48
+259,23,Female,Basic,59801.23,8,83.52,4.0,2.0,Chicago,768.16
+260,33,Male,VIP,47272.09,12,82.73,,3.3,Houston,1637.88
+261,46,Female,VIP,58338.52,4,50.36,4.0,4.4,Houston,360.62
+262,20,Male,Basic,51188.25,9,69.91,3.0,7.3,New York,789.11
+263,37,Male,Premium,72702.72,7,29.99,4.0,3.3,New York,352.33
+264,53,Male,Basic,78917.56,9,64.6,3.0,9.7,Philadelphia,874.26
+265,36,Male,VIP,35350.26,10,104.22,4.0,1.3,New York,1868.74
+266,43,Male,Basic,21719.18,6,52.59,2.0,3.5,Phoenix,317.39
+267,20,Male,VIP,20000.0,11,132.22,5.0,3.0,Houston,2593.04
+268,36,Female,Premium,67699.78,6,31.92,3.0,9.4,New York,363.5
+269,37,Male,Premium,27415.83,9,67.19,5.0,3.8,Los Angeles,768.3
+270,49,Male,Premium,20000.0,9,55.31,1.0,3.2,Phoenix,582.35
+271,24,Female,Basic,64714.47,7,69.59,5.0,1.6,Philadelphia,623.74
+272,69,Male,Basic,117324.99,7,116.14,5.0,7.8,Chicago,1207.93
+273,58,Female,Basic,54848.23,8,45.47,3.0,0.9,Houston,510.65
+274,50,Male,Basic,75962.27,12,61.46,4.0,8.0,Houston,929.62
+275,57,Male,Premium,57045.73,7,94.64,1.0,4.5,Los Angeles,846.85
+276,56,Male,Basic,52527.76,4,77.79,5.0,3.1,Chicago,430.85
+277,35,Male,Basic,77976.91,7,80.26,4.0,3.7,Chicago,824.15
+278,57,Male,VIP,47743.14,7,46.04,5.0,3.8,Philadelphia,511.6
+279,18,Male,VIP,61684.81,7,72.85,4.0,3.8,Philadelphia,1145.51
+280,28,Male,VIP,63042.45,5,108.95,5.0,0.5,Phoenix,991.58
+281,45,Male,VIP,38297.74,7,26.71,3.0,9.9,Houston,310.51
+282,42,Male,Basic,79801.06,6,54.08,1.0,1.8,New York,489.98
+283,67,Male,Basic,50626.01,7,20.53,4.0,2.0,Philadelphia,167.73
+284,40,Male,Premium,36106.37,7,91.11,4.0,4.0,Los Angeles,766.03
+285,48,Female,Premium,68412.75,11,111.76,5.0,8.5,Los Angeles,1880.97
+286,47,Female,Basic,32538.3,10,69.5,3.0,6.0,Los Angeles,804.14
+287,59,Male,Premium,55704.53,8,44.83,4.0,2.0,Philadelphia,477.87
+288,52,Female,Basic,54772.03,11,45.71,4.0,12.7,Philadelphia,611.53
+289,24,Female,Basic,82147.39,7,66.09,4.0,4.2,Los Angeles,653.67
+290,33,Male,Premium,66867.46,11,65.97,2.0,15.9,Philadelphia,1091.69
+291,43,Female,Premium,54374.33,4,102.35,3.0,6.9,New York,672.05
+292,65,Female,Premium,75444.16,6,54.93,3.0,7.1,New York,631.32
+293,69,Male,Basic,89755.19,8,88.05,4.0,2.5,Phoenix,939.4
+294,66,Male,VIP,68945.26,12,65.84,3.0,0.8,Houston,1499.58
+295,19,Female,Basic,55258.82,6,52.66,4.0,2.2,New York,334.63
+296,18,Female,Basic,22204.09,6,65.09,3.0,8.8,Phoenix,411.29
+297,65,Male,VIP,28372.16,8,85.1,4.0,5.7,Chicago,1307.23
+298,29,Male,VIP,47369.38,10,102.45,5.0,1.5,Houston,1732.7
+299,22,Male,VIP,39762.19,9,67.44,5.0,15.6,New York,1022.78
+300,54,Female,Premium,50325.72,13,38.88,3.0,5.2,Chicago,728.43
+301,49,Female,Premium,56416.25,8,104.99,3.0,5.9,Phoenix,1322.04
+302,26,Male,Premium,68242.32,11,48.05,1.0,7.5,New York,760.22
+303,58,Male,Basic,53237.53,10,82.82,3.0,2.8,New York,1090.31
+304,52,Female,Basic,67162.54,11,74.26,4.0,12.0,Philadelphia,926.81
+305,36,Male,Basic,56611.86,13,70.24,4.0,1.0,Chicago,1168.99
+306,65,Male,Basic,20000.0,6,60.39,5.0,7.7,New York,364.26
+307,33,Female,Premium,31516.62,12,93.6,3.0,22.7,Los Angeles,1597.34
+308,20,Female,Basic,51397.81,7,10.0,4.0,0.7,Philadelphia,70.61
+309,37,Female,Basic,24757.63,9,109.09,4.0,1.3,Philadelphia,1099.69
+310,41,Female,Basic,69998.22,5,47.62,4.0,9.3,New York,260.56
+311,50,Male,Premium,93268.77,8,87.24,3.0,0.8,Philadelphia,1047.88
+312,41,Male,Basic,85469.05,10,85.65,4.0,7.2,Houston,1157.99
+313,69,Female,VIP,49663.93,9,113.25,5.0,5.0,Chicago,2029.34
+314,28,Male,Basic,92268.15,2,80.93,4.0,7.6,Houston,180.67
+315,66,Male,Basic,58716.69,8,50.13,5.0,2.9,Phoenix,396.17
+316,25,Male,Premium,46572.85,7,26.86,3.0,4.2,Houston,310.38
+317,53,Male,Premium,39664.93,4,64.54,1.0,5.3,Los Angeles,414.13
+318,55,Male,Basic,47438.26,8,16.25,4.0,9.2,Philadelphia,132.81
+319,57,Male,Premium,45295.58,13,56.15,4.0,2.0,Philadelphia,1118.08
+320,37,Male,Premium,59260.41,5,66.22,3.0,3.2,Los Angeles,503.19
+321,52,Male,Basic,59014.35,4,54.3,4.0,3.3,Philadelphia,273.34
+322,65,Female,VIP,55076.15,9,76.25,4.0,11.2,Houston,1477.87
+323,42,Female,Premium,65923.45,4,67.92,5.0,1.1,Phoenix,361.25
+324,52,Female,Premium,84766.16,6,65.17,3.0,13.9,New York,747.68
+325,42,Female,VIP,78738.85,8,10.0,4.0,7.8,Los Angeles,165.12
+326,46,Female,VIP,20000.0,11,36.16,4.0,6.8,Houston,652.72
+327,35,Male,Premium,20000.0,8,94.28,4.0,2.1,Houston,1040.88
+328,63,Female,Premium,78358.0,4,99.13,4.0,8.0,Houston,778.36
+329,35,Female,Premium,20828.03,6,19.84,5.0,4.5,New York,127.82
+330,19,Female,Premium,49380.86,9,50.56,4.0,5.5,Chicago,550.72
+331,52,Male,Premium,25747.17,9,107.16,3.0,14.6,Philadelphia,1123.78
+332,33,Male,Premium,20000.0,6,53.46,4.0,4.1,Philadelphia,498.11
+333,58,Male,Basic,68536.57,10,71.66,4.0,12.8,Phoenix,966.97
+334,53,Male,VIP,73978.88,6,118.25,5.0,3.8,Chicago,1507.61
+335,50,Female,VIP,40587.24,4,64.15,3.0,1.9,Philadelphia,370.78
+336,21,Female,Basic,20000.0,4,59.86,4.0,1.5,Phoenix,275.74
+337,50,Male,Premium,41343.89,8,70.29,4.0,5.9,Phoenix,910.19
+338,31,Other,Basic,64795.1,9,130.6,2.0,8.4,Houston,1533.41
+339,38,Female,Basic,20000.0,10,88.39,4.0,7.7,Los Angeles,826.99
+340,65,Male,Premium,59584.0,13,75.57,2.0,10.2,Houston,1267.02
+341,37,Male,Basic,54617.25,11,59.27,2.0,7.0,New York,789.24
+342,25,Male,Premium,69482.29,8,91.16,4.0,1.3,Philadelphia,1286.51
+343,24,Male,Premium,57989.51,11,94.79,4.0,5.9,Phoenix,1351.1
+344,20,Male,Premium,30673.28,1,42.8,4.0,2.9,Los Angeles,185.25
+345,34,Male,Basic,84914.29,14,95.6,2.0,5.2,Philadelphia,1621.13
+346,50,Male,Basic,51036.76,10,70.47,4.0,3.7,Phoenix,899.99
+347,65,Male,Premium,54317.39,9,75.74,3.0,3.3,Phoenix,1054.65
+348,29,Female,VIP,31668.3,10,48.47,4.0,3.9,Houston,698.98
+349,68,Male,Premium,43917.94,6,63.0,4.0,13.7,Los Angeles,555.98
+350,39,Female,Basic,32879.93,12,44.1,4.0,0.5,Los Angeles,539.72
+351,39,Male,Premium,50676.35,6,42.65,3.0,1.6,Philadelphia,334.65
+352,63,Other,Premium,97792.71,11,86.31,2.0,1.8,Phoenix,1948.32
+353,47,Male,Premium,20702.47,7,64.35,5.0,3.6,Los Angeles,472.68
+354,55,Male,Basic,20000.0,7,36.01,3.0,7.3,Los Angeles,233.13
+355,55,Other,Premium,91779.26,7,140.31,4.0,3.5,Philadelphia,1396.66
+356,62,Female,Premium,49766.91,3,41.26,4.0,8.0,Houston,154.98
+357,68,Female,VIP,38273.18,5,107.76,4.0,9.8,Chicago,864.48
+358,25,Male,Basic,80997.62,7,30.71,5.0,0.9,New York,230.46
+359,44,Male,Premium,39859.61,14,88.7,4.0,9.5,Chicago,1843.06
+360,44,Female,VIP,100650.24,9,67.48,5.0,8.2,Los Angeles,1138.14
+361,51,Female,Basic,71948.15,4,56.13,2.0,10.8,Phoenix,305.62
+362,38,Female,VIP,42802.21,12,80.9,4.0,4.4,New York,1420.71
+363,47,Female,Premium,108932.71,9,76.87,5.0,5.5,New York,1070.09
+364,50,Male,Basic,39857.13,5,50.63,,8.3,Phoenix,256.58
+365,45,Female,Basic,73552.38,5,49.27,3.0,5.2,New York,361.81
+366,64,Male,Premium,62482.31,7,27.78,2.0,1.0,Phoenix,323.84
+367,50,Male,Basic,87543.53,13,84.17,4.0,1.9,New York,1621.67
+368,22,Male,Premium,94037.78,10,37.39,4.0,4.5,Philadelphia,570.39
+369,65,Female,Basic,55800.1,10,75.12,4.0,13.5,Philadelphia,1003.96
+370,36,Male,Premium,36164.55,5,92.77,3.0,6.8,Chicago,523.52
+371,21,Male,Basic,66499.3,7,81.24,3.0,2.4,New York,620.41
+372,52,Female,VIP,38057.12,5,53.31,4.0,2.6,Houston,486.52
+373,66,Male,VIP,105334.68,11,102.26,4.0,2.7,Phoenix,2439.36
+374,34,Female,VIP,58413.38,7,62.76,5.0,3.8,New York,1000.15
+375,61,Male,Premium,45866.96,9,34.98,4.0,4.0,Philadelphia,375.3
+376,45,Female,Basic,59617.01,7,66.49,4.0,3.8,Philadelphia,668.77
+377,47,Female,Premium,21321.84,8,92.6,4.0,3.9,Phoenix,1017.38
+378,46,Male,Basic,30709.65,6,54.77,3.0,1.0,Houston,354.32
+379,63,Male,Basic,85010.35,2,101.35,5.0,1.0,New York,221.23
+380,23,Male,Basic,38577.64,6,51.89,4.0,3.0,New York,309.4
+381,52,Male,Basic,28827.23,6,55.97,4.0,1.6,Houston,410.22
+382,58,Other,Premium,68416.32,12,43.62,3.0,3.8,Houston,795.82
+383,54,Male,Premium,84642.6,5,95.51,3.0,8.0,Houston,874.51
+384,41,Female,Basic,72973.83,5,73.4,2.0,10.5,Philadelphia,556.93
+385,46,Male,Basic,79901.19,6,45.61,4.0,8.0,Phoenix,321.87
+386,66,Female,VIP,36080.12,6,63.11,5.0,4.7,Houston,674.51
+387,63,Female,Basic,20000.0,9,10.0,4.0,7.0,Phoenix,97.07
+388,48,Female,Basic,92533.34,12,98.34,3.0,4.5,Chicago,1392.17
+389,52,Male,Basic,46933.0,10,69.88,4.0,4.0,New York,681.42
+390,50,Male,Premium,48729.17,5,10.0,4.0,7.1,New York,73.03
+391,69,Male,Premium,88204.85,10,31.3,3.0,3.6,Los Angeles,520.68
+392,38,Female,Basic,68905.75,12,62.35,2.0,1.0,Chicago,1010.9
+393,49,Female,Basic,66397.19,4,35.57,3.0,3.5,Houston,145.11
+394,40,Other,Premium,109125.06,8,98.8,4.0,0.8,Houston,1765.73
+395,50,Male,Premium,38912.04,8,87.56,4.0,3.3,Philadelphia,803.02
+396,20,Female,Basic,78196.0,7,85.79,3.0,6.0,Chicago,806.58
+397,35,Female,VIP,56425.33,6,10.0,5.0,5.6,Houston,116.32
+398,42,Male,Basic,61714.81,6,59.24,3.0,4.7,Los Angeles,366.76
+399,59,Male,Basic,93211.71,8,54.07,3.0,4.0,Phoenix,508.35
+400,48,Female,VIP,67695.89,9,46.38,4.0,5.7,New York,923.87
+401,20,Female,Basic,68457.4,11,62.54,5.0,7.1,Chicago,987.1
+402,57,Female,Premium,81812.68,11,41.21,,3.3,New York,704.46
+403,63,Male,Basic,45876.18,6,81.46,3.0,1.6,Phoenix,538.25
+404,41,Female,Basic,34019.76,8,98.0,3.0,5.9,Chicago,790.25
+405,67,Male,VIP,28879.77,10,95.41,4.0,1.8,Phoenix,1321.73
+406,49,Male,Basic,20000.0,6,70.86,4.0,2.1,Houston,454.63
+407,64,Male,VIP,106405.18,7,134.98,5.0,8.6,Houston,2446.15
+408,39,Female,Basic,27419.79,6,109.2,2.0,5.7,Houston,626.46
+409,40,Female,Basic,49468.66,8,71.95,4.0,12.0,Phoenix,789.89
+410,19,Female,Basic,48079.67,8,60.53,,9.6,Phoenix,458.53
+411,44,Male,Premium,62685.17,13,115.14,4.0,4.7,Phoenix,2513.8
+412,59,Female,Basic,75393.43,5,105.23,4.0,8.8,New York,657.89
+413,19,Male,VIP,76511.84,9,32.69,,1.7,Phoenix,590.75
+414,43,Female,Basic,40423.06,8,107.57,4.0,4.1,Houston,932.37
+415,34,Male,VIP,50821.96,11,70.37,4.0,4.8,Los Angeles,1291.31
+416,57,Male,Basic,62064.5,7,49.17,4.0,3.6,Phoenix,452.49
+417,50,Male,VIP,48782.72,8,15.62,4.0,8.4,Los Angeles,249.03
+418,26,Male,Premium,95183.64,4,66.93,3.0,6.0,Houston,437.15
+419,60,Female,Premium,67274.37,7,74.63,4.0,5.9,Phoenix,952.24
+420,65,Female,Premium,73371.94,8,122.62,5.0,13.1,New York,1497.07
+421,56,Male,Premium,71572.03,12,103.72,5.0,4.7,New York,2218.25
+422,46,Female,Premium,84336.85,8,57.51,4.0,10.0,Los Angeles,670.64
+423,59,Male,Basic,59525.54,7,86.68,4.0,10.2,Philadelphia,630.33
+424,43,Female,Basic,22579.2,9,99.79,3.0,7.7,New York,842.64
+425,52,Female,VIP,64992.2,9,77.58,5.0,12.7,New York,1419.72
+426,67,Female,Premium,38716.08,10,57.39,4.0,5.3,New York,863.28
+427,42,Male,Premium,41784.58,4,59.03,3.0,6.1,Houston,326.29
+428,41,Female,Basic,69659.1,5,86.56,5.0,2.7,New York,449.02
+429,30,Female,Basic,85957.08,10,87.39,3.0,3.4,Chicago,1103.24
+430,24,Male,Basic,55531.79,13,66.21,3.0,5.8,Phoenix,1090.14
+431,53,Male,Premium,62720.83,13,10.0,3.0,3.7,New York,219.11
+432,62,Female,Basic,97555.37,7,36.28,5.0,6.6,Philadelphia,304.54
+433,37,Female,Basic,61018.83,8,93.59,4.0,4.8,Philadelphia,724.59
+434,18,Female,Basic,120042.08,6,11.07,4.0,10.2,New York,109.76
+435,25,Female,Basic,69137.74,10,110.53,3.0,4.6,New York,1159.93
+436,63,Female,Premium,20000.0,8,106.08,5.0,9.5,Chicago,918.97
+437,33,Male,Basic,73833.54,5,76.23,1.0,1.1,New York,387.5
+438,31,Male,Premium,64528.96,10,92.94,5.0,2.5,New York,1437.26
+439,29,Male,Basic,87243.82,13,90.86,4.0,5.8,Phoenix,1580.26
+440,68,Female,Basic,71829.53,3,71.49,3.0,3.3,Philadelphia,284.91
+441,40,Male,Basic,51538.6,10,33.78,4.0,4.7,Chicago,359.18
+442,32,Female,Basic,24392.54,1,104.02,4.0,4.4,Philadelphia,115.25
+443,45,Female,Basic,49774.42,5,117.22,1.0,4.3,Chicago,584.24
+444,51,Female,Basic,33736.99,10,38.74,5.0,1.1,Philadelphia,469.0
+445,19,Male,Premium,40486.91,13,32.66,4.0,5.3,New York,626.0
+446,49,Female,Basic,69714.46,11,70.9,3.0,14.1,Philadelphia,1006.3
+447,40,Male,Premium,96747.61,6,56.21,2.0,5.0,Philadelphia,536.22
+448,39,Female,VIP,64866.79,9,79.35,4.0,5.0,Chicago,1160.54
+449,68,Male,Premium,25102.92,11,111.24,4.0,15.0,Los Angeles,1608.28
+450,42,Male,Basic,66115.07,8,10.0,4.0,22.0,Chicago,102.99
+451,39,Female,Basic,84915.79,6,122.44,4.0,2.1,Chicago,815.37
+452,39,Male,Basic,39755.43,4,62.8,4.0,15.8,Chicago,325.74
+453,66,Male,Basic,51649.57,10,90.35,5.0,4.4,Houston,1247.55
+454,69,Female,VIP,55367.2,13,93.56,5.0,1.7,Houston,2331.72
+455,59,Female,Basic,35377.54,6,97.06,5.0,8.4,Houston,740.02
+456,23,Female,Basic,71207.01,6,76.86,2.0,1.5,Chicago,504.9
+457,32,Female,Premium,51976.3,8,83.87,3.0,4.1,Los Angeles,819.57
+458,60,Female,Premium,65488.31,8,83.67,3.0,3.7,Chicago,871.24
+459,54,Male,Premium,32812.7,10,56.09,4.0,5.0,New York,803.04
+460,50,Male,Basic,44063.54,7,22.26,5.0,1.4,Los Angeles,143.94
+461,25,Male,Basic,73059.53,8,38.42,2.0,1.1,Houston,460.25
+462,61,Female,Premium,45679.17,8,71.87,2.0,8.3,Philadelphia,722.61
+463,61,Female,Basic,98174.1,13,51.4,5.0,10.7,Philadelphia,856.61
+464,22,Male,Basic,45009.1,8,51.47,3.0,11.2,Phoenix,522.94
+465,56,Male,Basic,60617.12,6,128.98,4.0,1.0,Los Angeles,826.22
+466,21,Female,Basic,78314.77,9,100.77,4.0,2.8,Houston,1050.8
+467,23,Male,Basic,20000.0,6,67.44,5.0,19.8,Los Angeles,427.66
+468,62,Female,Basic,20000.0,7,95.16,2.0,2.2,Los Angeles,606.47
+469,49,Female,Premium,20000.0,6,62.39,2.0,1.0,Philadelphia,431.65
+470,69,Female,Premium,86564.6,12,78.32,4.0,3.2,Chicago,1468.19
+471,47,Male,Premium,41203.55,4,88.25,5.0,0.5,New York,505.63
+472,64,Female,Basic,118954.98,7,62.47,4.0,0.8,Phoenix,775.43
+473,52,Female,Basic,40893.81,6,54.44,3.0,3.0,Houston,408.71
+474,57,Female,Basic,59613.78,10,111.72,4.0,3.1,Los Angeles,1223.06
+475,69,Female,Premium,93552.75,3,93.42,5.0,0.7,Phoenix,471.06
+476,33,Female,Premium,105152.32,7,10.0,5.0,11.2,Los Angeles,127.89
+477,30,Female,Basic,106537.59,6,54.96,5.0,3.4,Philadelphia,562.84
+478,67,Male,VIP,85209.16,7,51.56,5.0,3.6,New York,665.36
+479,59,Female,Basic,80601.56,5,56.37,2.0,3.4,Philadelphia,346.26
+480,47,Female,Premium,69813.17,10,100.87,,4.7,Phoenix,1788.11
+481,36,Male,Premium,74459.03,8,75.58,5.0,15.4,Houston,1185.49
+482,34,Female,VIP,41220.36,6,33.31,4.0,7.2,Los Angeles,304.99
+483,36,Female,Premium,34545.03,7,63.5,3.0,5.0,New York,552.29
+484,45,Female,Premium,54915.64,6,91.25,4.0,1.8,Philadelphia,744.25
+485,43,Male,Basic,50745.38,14,68.41,2.0,2.3,Phoenix,893.19
+486,54,Male,Premium,43669.3,9,55.66,3.0,3.5,Philadelphia,758.58
+487,43,Other,Basic,72409.69,7,84.94,4.0,3.3,Los Angeles,801.52
+488,40,Female,VIP,78882.63,8,123.55,4.0,7.0,Los Angeles,2130.71
+489,26,Male,Premium,57210.17,8,88.84,4.0,0.9,Houston,907.9
+490,29,Female,Premium,91938.25,12,114.03,3.0,8.8,New York,2001.69
+491,18,Female,Basic,26457.77,10,57.67,4.0,3.9,Chicago,526.36
+492,18,Female,Premium,50158.51,11,74.75,4.0,1.5,Philadelphia,1126.85
+493,64,Female,Premium,37079.44,9,74.14,4.0,5.0,Los Angeles,1049.44
+494,51,Male,Premium,20000.0,5,78.56,,3.9,Phoenix,441.07
+495,49,Male,Basic,52932.98,6,88.22,3.0,2.5,Philadelphia,504.0
+496,65,Male,Basic,51956.31,8,47.43,2.0,3.3,Houston,421.39
+497,42,Female,Basic,92836.24,6,94.42,2.0,9.7,Houston,746.91
+498,57,Male,Basic,70770.29,10,26.16,3.0,14.8,Los Angeles,321.58
+499,62,Male,VIP,29395.33,10,34.93,5.0,5.1,Los Angeles,661.58
+500,18,Male,Basic,101352.31,7,139.07,5.0,9.1,Los Angeles,1149.11
